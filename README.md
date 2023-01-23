@@ -5,6 +5,9 @@ _Created with R2022b. Compatible with R2021b and later releases_
 
 It is very common to use for loop when people try to import data from multiple files, but [datastore](https://www.mathworks.com/help/matlab/datastore.html) is as much as 2x faster than using a loop in an example I would like to share. 
 
+* Using a loop: 4.09 sec
+* Using datastore: 1.80 sec
+
 To do this comparison, I used Popular Baby Names dataset. I downloaded it and unzipped into a folder named "names". Inside this folder are text files named 'yob1880.txt' through 'yob2021.txt'.
 
 | filenames   | 
